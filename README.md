@@ -8,6 +8,7 @@ U-Net: Convolutional Networks for Biomedical Image Segmentation
 
 
 # UPDATES:
-*fixed residual connections
-*added leakyReLU activation 
+* residual connection is fixed. The original source was using concatenation not adding
+* leakyReLU is added  to solve the dying Relu problem 
+
 
